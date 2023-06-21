@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/1Mans/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/1Mans/python-project-49/actions) [![Actions Status](https://codeclimate.com/github/1Mans/python-project-49)
+[![Actions Status](https://github.com/1Mans/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/1Mans/python-project-49/actions) 
+[![Actions Status](https://codeclimate.com/github/1Mans/python-project-49)
 
 ### Brain Games
 
