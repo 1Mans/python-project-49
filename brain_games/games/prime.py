@@ -18,4 +18,3 @@ def question_and_answer():
     answer = 'yes' if is_prime(num) else 'no'
     question = str(num)
     return question, answer
-

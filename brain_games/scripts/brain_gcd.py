@@ -2,6 +2,7 @@
 from brain_games.games import gcd
 from brain_games.logic import go
 
+
 def main():
     go(gcd)
 

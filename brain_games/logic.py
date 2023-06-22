@@ -14,7 +14,7 @@ def go(game):
         user_answer = input('Your answer: ')
         if answer != user_answer:
             print(f''' '{user_answer}' is wrong answer ;(. Correct answer is '{answer}'
-        Let's try again, {name}!''')
+Let's try again, {name}!''')
             break
         print('Correct!')
     else:
