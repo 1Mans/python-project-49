@@ -1,7 +1,6 @@
 import random
 
-TEXT = '''Answer "yes" if given number is prime.
-Otherwise answer "no".'''
+TEXT = 'Answer "yes" if given number is prime.\nOtherwise answer "no".'
 
 
 def is_prime(num):
