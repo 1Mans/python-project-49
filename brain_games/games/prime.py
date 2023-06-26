@@ -1,6 +1,6 @@
 import random
 
-TEXT = 'Answer "yes" if given number is prime.\nOtherwise answer "no".'
+TEXT = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(num):
@@ -16,4 +16,4 @@ def question_and_answer():
     num = random.randint(1, 80)
     answer = 'yes' if is_prime(num) else 'no'
     question = str(num)
-    return question, answer
+    return (question, answer)

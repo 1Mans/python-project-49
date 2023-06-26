@@ -4,7 +4,7 @@ TEXT = 'What number is missing in the progression?'
 
 
 def question_and_answer():
-    progression_length = random.randint(5, 10)  # Задаем желаемую длину прогрессии
+    progression_length = random.randint(5, 10)
     progression = list(range(0, random.randint(30, 66), random.randint(2, 5)))
     if len(progression) > progression_length:
         progression = progression[:progression_length]
