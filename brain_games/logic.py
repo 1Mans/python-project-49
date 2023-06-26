@@ -13,8 +13,9 @@ def go(game):
         print(f'Question: {question}')
         user_answer = input('Your answer: ')
         if answer != user_answer:
-            print(f"'{user_answer}' is wrong answer ;(. Correct answer is '{answer}'\n"
-                  f"Let's try again, {name}!")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer is '{answer}'."
+                  f"\nLet's try again, {name}!")
             break
         print('Correct!')
     else:
