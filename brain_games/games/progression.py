@@ -3,7 +3,6 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-
 def generate_progression(length):
     start = random.randint(0, 30)
     step = random.randint(2, 5)
@@ -24,5 +23,3 @@ def get_question_and_answer():
     progression = generate_progression(progression_length)
     question, answer = build_question(progression, progression_length)
     return question, answer
-
-
