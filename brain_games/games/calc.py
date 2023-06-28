@@ -3,10 +3,13 @@ import random
 
 DESCRIPTION = 'What is the result of the expression?'
 
+MIN_NUM = 1
+MAX_NUM = 100
+
 
 def get_question_and_answer():
-    num1 = random.randint(1, 100)
-    num2 = random.randint(1, 100)
+    num1 = random.randint(MIN_NUM, MAX_NUM)
+    num2 = random.randint(MIN_NUM, MAX_NUM)
     symbols = ['+', '-', '*']
     symbols = random.choice(symbols)
     question = f'{num1} {symbols} {num2}'
