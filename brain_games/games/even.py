@@ -1,9 +1,13 @@
 import random
 
-TEXT = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def question_and_answer():
-    question: int = random.randint(1, 50)
-    answer = 'yes' if question % 2 == 0 else 'no'
+def is_even(number):
+    return number % 2 == 0
+
+
+def get_question_and_answer():
+    question = random.randint(1, 50)
+    answer = 'yes' if is_even(question) else 'no'
     return question, answer

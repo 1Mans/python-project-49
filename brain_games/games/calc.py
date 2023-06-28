@@ -1,10 +1,9 @@
 import operator
 import random
 
-TEXT = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
-
-def question_and_answer():
+def get_question_and_answer():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     symbols = ['+', '-', '*']
