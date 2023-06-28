@@ -6,6 +6,11 @@ authors = ["Mansur Asmatullah <pigmalioon1@gmail.com>"]
 repository = "https://github.com/1Mans/python-project-49"
 readme = "README.md"
 packages = [{include = "brain_games"}]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: MIT License",
+    "Operating System :: Ubuntu :: 22.04 :: LTS",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

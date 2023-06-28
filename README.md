@@ -19,10 +19,10 @@ An example of the passage of games is given below in the section "Asciinema".
 
 #### *Asciinema*
 
-1. CALC-GAME (https://asciinema.org/a/592588)
-2. EVEN-GAME (https://asciinema.org/a/592585)
-3. GCD-GAME (https://asciinema.org/a/592586)
-4. PRIME-GAME (https://asciinema.org/a/592588)
-5. PROGRESSION-GAME (https://asciinema.org/a/592587)
+1. CALC-GAME [![asciicast](https://asciinema.org/a/592583.svg)](https://asciinema.org/a/592583)
+2. EVEN-GAME [![asciicast](https://asciinema.org/a/592583.svg)](https://asciinema.org/a/592583)
+3. GCD-GAME [![asciicast](https://asciinema.org/a/592586.svg)](https://asciinema.org/a/592586)
+4. PRIME-GAME [![asciicast](https://asciinema.org/a/592588.svg)](https://asciinema.org/a/592588)
+5. PROGRESSION-GAME [![asciicast](https://asciinema.org/a/592587.svg)](https://asciinema.org/a/592587)
 
 
