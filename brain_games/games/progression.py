@@ -7,7 +7,6 @@ STEP_MIN = 2
 STEP_MAX = 5
 
 
-
 def generate_progression(length):
     start = random.randint(START_MIN, START_MAX)
     step = random.randint(STEP_MIN, STEP_MAX)
