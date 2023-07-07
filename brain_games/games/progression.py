@@ -25,6 +25,7 @@ def get_question_and_answer():
     progression_length = random.randint(LENGTH_MIN, LENGTH_MAX)
     first_term = random.randint(START_MIN, START_MAX)
     difference = random.randint(STEP_MIN, STEP_MAX)
-    progression = generate_progression(progression_length, first_term, difference)
+    progression = generate_progression(progression_length,
+                                       first_term, difference)
     hidden_index = random.randint(0, progression_length - 1)
     return build_question(progression, hidden_index)
